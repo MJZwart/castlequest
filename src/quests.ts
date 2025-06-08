@@ -57,5 +57,8 @@ export const quests = [
     // 'Be cringe',
     // 'Design a bug for your favourite game',
     // 'Find a delectable treat for yourself',
-]
-  
+];
+
+export const groupQuests = [
+    'Get someone to text you back. Fastest wins.',
+];
