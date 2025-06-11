@@ -65,4 +65,5 @@ export const groupQuests = [
     'Tell a short story where each person adds 2 words at a time',
     'Think of a random object that represents each member\'s personality and explain why',
     'Pretend you’re holding a rope over the path and get 3 people to jump over it',
+    'Find a clone of yourself. Closest match wins.',
 ];
