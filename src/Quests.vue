@@ -1,18 +1,18 @@
 <template>
-    <div bg="[#181818]" m-auto p-8 font-normal flex flex-col items-center>
+    <div bg="[#181818]" m-auto p-3 sm:p-8 font-normal flex flex-col items-center max-w-full>
         <header>
             <div class="header">
                 <h1 class="gradient" bg-clip-text color-transparent text-15 tracking--1 font-700 relative top--3>Castlequest</h1>
             </div>
         </header>
         <main mb-8 items-center flex flex-col>
-            <div p-4 mb-5 rounded-3xl bg="[#252525]" class="heavy-shadow" flex flex-col items-center>
+            <div p-2 sm:p-4 mb-5 rounded-3xl h-70 bg="[#252525]" class="heavy-shadow" flex flex-col items-center>
                 <span font-italic text-lg>New quest!</span>
-                <div class="active-quest" :class="{'smaller-quest': isActiveQuestTooBig}">❝ {{ activeQuest }} ❞</div>
-                <span class="quest-reward">Reward: <b>1 coin</b>.</span>
+                <div w-90vw md:w-170 text-3xl mt-3 :class="{'text-2xl': isActiveQuestTooBig}">❝ {{ activeQuest }} ❞</div>
+                <span text-lg mt-auto>Reward: <b>1 coin</b>.</span>
             </div>
-            <button class="btn" mb-3 @click="getRandomSoloQuest">Generate solo quest</button>
-            <button class="btn" @click="getRandomGroupQuest">Generate group quest</button>
+            <button class="btn" w-95vw sm:w-85 px-1 sm:px-3.5 py-0 mb-3 @click="getRandomSoloQuest">Generate solo quest</button>
+            <button class="btn" w-95vw sm:w-85 px-1 sm:px-3.5 py-0 @click="getRandomGroupQuest">Generate group quest</button>
         </main>
         <footer>
             <div text-xl font-300>
@@ -57,13 +57,6 @@ onMounted(() => {
 
 .quest-reward {
   font-size: 1.1rem;
-  
-}
-
-.active-quest {
-  margin: 2rem 0;
-  font-size: 2rem;
-  max-width: 650px;
 }
 
 .active-quest.smaller-quest {
@@ -76,7 +69,6 @@ h3 {
 
 .btn {
   background-image: linear-gradient(90deg, #55cdfc, #f7a8b8);
-  width: 350px;
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
@@ -85,7 +77,6 @@ h3 {
   font-size: 20px;
   font-weight: 700;
   height: 4rem;
-  padding: 0 3.5rem;
   text-align: center;
   text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
   transition: all .5s;
