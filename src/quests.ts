@@ -68,4 +68,5 @@ export const groupQuests = [
     'Pretend you’re holding a rope over the path and get 3 people to jump over it',
     'Write the most passive aggressive \'Facebook-mum\'-type text. Most passive aggressive wins',
     'Recreate a country\'s flag using clothing or items you have available',
+    'Find a clone of yourself. Closest match wins.',
 ];
