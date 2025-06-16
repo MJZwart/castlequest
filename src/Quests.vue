@@ -8,7 +8,7 @@
         <main mb-8 items-center flex flex-col>
             <div p-2 sm:p-4 mb-5 rounded-3xl h-70 bg="[#252525]" class="heavy-shadow" flex flex-col items-center>
                 <span font-italic text-lg>New quest!</span>
-                <div w-90vw md:w-170 text-3xl mt-3 :class="{'text-2xl': isActiveQuestTooBig}">❝ {{ activeQuest }} ❞</div>
+                <div w-90vw md:w-170 text-3xl mt-3 text-center :class="{'text-2xl': isActiveQuestTooBig}">❝ {{ activeQuest }} ❞</div>
                 <span text-lg mt-auto>Reward: <b>1 coin</b>.</span>
             </div>
             <button class="btn" w-95vw sm:w-85 px-1 sm:px-3.5 py-0 mb-3 @click="getRandomSoloQuest">Generate solo quest</button>

@@ -32,7 +32,8 @@ export const quests = [
     'Stage a dramatic reading of someone\'s text message',
     'Get up to three people in a group chat to tell them something unimportant, then leave',
     'Come up with a piece of legislation that would make the world a better place. Now pick the worst politician for the job',
-    'Come up with the worst Castlefest related pick up line.',
+    'Come up with the worst Castlefest related pick up line',
+    'Write a text-message someone 2 generations older/younger would write',
     // 'Propose to someone (doesn’t have to be to someone you know)',
     // 'Take a picture with an exotic animal',
     // 'Photobomb someone, have the photo be sent to you',
@@ -65,4 +66,6 @@ export const groupQuests = [
     'Tell a short story where each person adds 2 words at a time',
     'Think of a random object that represents each member\'s personality and explain why',
     'Pretend you’re holding a rope over the path and get 3 people to jump over it',
+    'Write the most passive aggressive \'Facebook-mum\'-type text. Most passive aggressive wins',
+    'Recreate a country\'s flag using clothing or items you have available',
 ];
